@@ -43,13 +43,10 @@ and then run the application using the following command or using your IDE.
 
 ## Key Implementation Details
 
-Integrating Stripe with Temporal Workflow, enhancing the User model with `providerType` and `providerId`fields, updating SignupController for the new fields, and implementing the GET /accounts endpoint in AccountController could be expressed differently:
-
-Utilized Stripe's features within a Temporal Workflow to streamline payment processing.
-Augmented the User model by incorporating `providerType` and `providerId` attributes to enhance user identification and authentication.
-
-Enhanced SignupController to accommodate the new user attributes, ensuring seamless registration processes.
-Developed the GET /accounts endpoint in AccountController to retrieve user account information efficiently.
+- Utilized Stripe's features within a Temporal Workflow to streamline payment processing.
+- Augmented the User model by incorporating `providerType` and `providerId` attributes to enhance user identification and authentication.
+- Enhanced SignupController to accommodate the new user attributes, ensuring seamless registration processes.
+- Developed the GET /accounts endpoint in AccountController to retrieve user account information efficiently.
 
 ## Assumptions 
 
